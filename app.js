@@ -139,4 +139,4 @@ app.delete("/api/users/:userId/books/:bookId", resolveUserByIndexId, (req, res) 
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`);
-})
+});
